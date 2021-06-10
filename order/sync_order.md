@@ -1,6 +1,6 @@
 **Show User**
 ----
-  [Order](/order/sync_order.md)
+  Returns json data about a single user.
 
 * **URL**
 
