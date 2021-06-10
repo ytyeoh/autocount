@@ -1,10 +1,10 @@
-**Show User**
+**Orders FOr Autocount**
 ----
-  Returns json data about a single user.
+  Returns json data about order by order status set by client to sync
 
 * **URL**
 
-  /users/:id
+  index.php?route=api/order/autocount
 
 * **Method:**
 
@@ -14,11 +14,12 @@
 
    **Required:**
  
-   `id=[integer]`
+   `name=[integer]`
 
 * **Data Params**
 
-  None
+  username = will be assign
+  key = will be assign 
 
 * **Success Response:**
 
