@@ -1,14 +1,16 @@
-**Show User**
+**Function**
 ----
   [Order](/order/sync_order.md)
+  Product
 
-* **URL**
+* **Featured**
 
-  /users/:id
+  **Sync order form webstore to autocount**
+  **Sync products form autocount to webstore**
 
 * **Method:**
 
-  `GET`
+  
   
 *  **URL Params**
 

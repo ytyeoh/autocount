@@ -93,7 +93,7 @@
   * **Code:** 401 UNAUTHORIZED <br />
     **Content:** `{ error : "Warning: Incorrect API Key!" }`
 
-* **Sample Call:**
+* **Sample Call With Python:**
 
   ```Python
     import requests
