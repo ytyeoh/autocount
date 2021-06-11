@@ -1,12 +1,12 @@
 **Function**
 ----
-- Order](/order/sync_order.md)
+- [Order](/order/sync_order.md)
 - Product
 
 * **Featured**
 
-  **Sync order form webstore to autocount**
-  **Sync products form autocount to webstore**
+  * Sync order form webstore to autocount
+  * Sync products form autocount to webstore
 
 * **Method:**
 
