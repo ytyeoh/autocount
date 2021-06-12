@@ -1,6 +1,6 @@
 **Orders FOr Autocount**
 ----
-  Returns json data about order by order status set by client to sync
+  Returns json data about orders by order status set by client to sync
 
 * **URL**
 
@@ -17,9 +17,10 @@
    `name=[integer]`
 
 * **Data Params**
-
-  username = will be assign
-  key = will be assign 
+  | Name|Type|Description
+  |----------|:-------------:|------:|
+  |username| string | uniq username use to access api, will be provide|
+  |key| string |uniq key  use to access api pair to each username , will be provide|
 
 * **Success Response:**
 
@@ -82,11 +83,12 @@
                 }
             ]
         }
+
  
 * **Error Response:**
 
   * **Code:** 404 NOT FOUND <br />
-    **Content:** `{ error : "User doesn't exist" }`
+    **Content:** `{ error : "Order doesn't exist" }`
 
   OR
 
