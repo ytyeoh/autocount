@@ -8,44 +8,23 @@
   * Sync order form webstore to autocount
   * Sync products form autocount to webstore
 
-* **Method:**
+* **Format Return**
+All return is json format
 
-  
-  
-*  **URL Params**
+* **plugin check**
+  - Check duplicate order before insert autocount via order id.
+  - Api return might return previous order which can cause duplicate order id.
+  - Take note on product quantity deduct if apply stock control.
+  - Item code in autocout will be use as product model during sync.
+  - Products with variants via OUM sync to autocount will not have uniq model. [MORE](#product_variant)
 
-   **Required:**
- 
-   `id=[integer]`
 
-* **Data Params**
+* **Explanitation**
+  ### product_variant
 
-  None
+  Order been create, API will return uniq model as item code in below format `0001-12-32` 
+  | model | option 1|option 2|
+  | 0001  | -12 | -32|
+  | product uniq model / item code| - as seperator 12 is uniq option id in w ebstore | - as seperator ,32 is uniq option id in webstore
 
-* **Success Response:**
 
-  * **Code:** 200 <br />
-    **Content:** `{ id : 12, name : "Michael Bloom" }`
- 
-* **Error Response:**
-
-  * **Code:** 404 NOT FOUND <br />
-    **Content:** `{ error : "User doesn't exist" }`
-
-  OR
-
-  * **Code:** 401 UNAUTHORIZED <br />
-    **Content:** `{ error : "You are unauthorized to make this request." }`
-
-* **Sample Call:**
-
-  ```javascript
-    $.ajax({
-      url: "/users/1",
-      dataType: "json",
-      type : "GET",
-      success : function(r) {
-        console.log(r);
-      }
-    });
-  ```
