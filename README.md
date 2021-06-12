@@ -24,9 +24,11 @@ All return is json format
 
   Order been create, API will return uniq model as item code in below format `0001-12-32` 
   | model | option 1|option 2|
+  |----------|:-------------:|------:|
   | 0001  | -12 | -32|
   | product uniq model / item code| - as seperator 12 is uniq option id in w ebstore | - as seperator 12 is uniq option id in w ebstore|
 
 |  model   |  option 1   |  option 2   |
+|----------|:-------------:|------:|
 |0001  |-12  |-32  |
 |product uniq model / item code     |- as seperator 12 is uniq option id in w ebstore     | - as seperator 12 is uniq option id in w ebstore    |
