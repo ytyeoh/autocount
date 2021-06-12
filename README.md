@@ -1,6 +1,7 @@
 **Function**
 ----
-- [Order](/order/sync_order.md)
+- Orders
+  1. [Get Orders](/order/sync_order.md)
 - Product
 
 * **Featured**
