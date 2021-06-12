@@ -28,7 +28,3 @@ All return is json format
   | 0001  | -12 | -32|
   | product uniq model / item code| - as seperator 12 is uniq option id in w ebstore | - as seperator 12 is uniq option id in w ebstore|
 
-|  model   |  option 1   |  option 2   |
-|----------|:-------------:|------:|
-|0001  |-12  |-32  |
-|product uniq model / item code     |- as seperator 12 is uniq option id in w ebstore     | - as seperator 12 is uniq option id in w ebstore    |
