@@ -21,7 +21,10 @@
   |----------|:-------------:|------:|
   |username| string | uniq username use to access api, will be provide|
   |key| string |uniq key  use to access api pair to each username , will be provide|
-
+* **Checking**
+  * **Uniq id in order**
+  -RefDocNo (order id in webstore)
+  
 * **Success Response:**
 
   * **Code:** 200 <br />
@@ -84,7 +87,7 @@
             ]
         }
 
- 
+
 * **Error Response:**
 
   * **Code:** 404 NOT FOUND <br />
