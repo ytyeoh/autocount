@@ -1,7 +1,7 @@
 **Orders FOr Autocount**
 ----
   Returns json data about orders by order status set by client to sync
-
+  **Caution** Kindly sync product before sync order to avoid unneccesary bugs
 * **URL**
 
   index.php?route=api/order/autocount
@@ -24,7 +24,7 @@
 * **Checking**
   * **Uniq id in order**
   -RefDocNo (order id in webstore)
-  
+
 * **Success Response:**
 
   * **Code:** 200 <br />
