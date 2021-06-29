@@ -27,11 +27,11 @@
   * **description**
   | Name|Type|Description|
   |----------|:-------------:|------:|
-  |product_id| integre|uniq product id in websotre|
-  |model|string|uniq str in webstore to record product(can use a item code|
-  |name| string|name for product, default use same as admin language in webstore for multiple language|
-  |price|decimal|not inlcude special price or other price.|
-  |option|string| -dash been use as seperator for join option value in product. Example:Black-Large (L) = *COLOR* - *SIZE*|
+  |product_id| integre |uniq product id in websotre|
+  |model| string |uniq str in webstore to record product(can use a item code|
+  |name| string |name for product, default use same as admin language in webstore for multiple language|
+  |price| decimal |not inlcude special price or other price.|
+
 * **Success Response:**
 
   * **Code:** 200 <br />
