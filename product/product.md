@@ -25,7 +25,7 @@
   -Product_id  (product id in webstore)
   -Model (model in webstore)
   * **description**
-  | Name|Type|Description
+  | Name|Type|Description|
   |----------|:-------------:|------:|
   |product_id| integre|uniq product id in websotre|
   |model|string|uniq str in webstore to record product(can use a item code|
