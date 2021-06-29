@@ -3,6 +3,7 @@
 - Orders
   1. [Get Orders](/order/sync_order.md)
 - Product
+  1. [Get Products](/product/product.md)
 
 * **Featured**
 
