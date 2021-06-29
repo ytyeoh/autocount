@@ -25,7 +25,7 @@
   -Product_id  (product id in webstore)
   -Model (model in webstore)
   * **description**
-   | Name|Type|Description|
+  | Name|Type|Description|
   |----------|:-------------:|------:|
   |username| string | uniq username use to access api, will be provide|
   |key| string |uniq key  use to access api pair to each username , will be provide|
@@ -34,7 +34,7 @@
 
   * **Code:** 200 <br />
     **Content:** {
-
+```
     {
       "products": [
         {
@@ -46,7 +46,7 @@
         }
       ]
     }
-
+```
 
 
 * **Error Response:**
