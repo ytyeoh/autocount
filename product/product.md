@@ -25,12 +25,10 @@
   -Product_id  (product id in webstore)
   -Model (model in webstore)
   * **description**
-  | Name|Type|Description|
+   | Name|Type|Description|
   |----------|:-------------:|------:|
-  |product_id| integre |uniq product id in websotre|
-  |model| string |uniq str in webstore to record product(can use a item code|
-  |name| string |name for product, default use same as admin language in webstore for multiple language|
-  |price| decimal |not inlcude special price or other price.|
+  |username| string | uniq username use to access api, will be provide|
+  |key| string |uniq key  use to access api pair to each username , will be provide|
 
 * **Success Response:**
 
