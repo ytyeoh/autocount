@@ -17,16 +17,14 @@ All return is json format
   - Check duplicate order before insert autocount via order id.
   - Api return might return previous order which can cause duplicate order id.
   - Take note on product quantity deduct if apply stock control.
-  - Item code in autocout will be use as product model during sync.
-  - Products with variants via OUM sync to autocount will not have uniq model. [MORE](#product_variant)
+  - Can autocount store product_id in item? Thie will be use to sync back product in webstore.
+  - advise use option name + model to generate uniq item code  or UOM in autocount.
+  
 
 
 * **Explanitation**
   ### product_variant
 
-  Order been create, API will return uniq model as item code in below format `0001-12-32` 
-  | model | option 1|option 2|
-  |----------|:-------------:|------:|
-  | 0001  | -12 | -32|
-  | product uniq model / item code| - as seperator 12 is uniq option id in w ebstore | - as seperator 12 is uniq option id in w ebstore|
+  Order been create, API will return uniq model and product_id advise use product_id to sync back item in autocount.
+ 
 
