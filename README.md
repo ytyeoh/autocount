@@ -19,7 +19,7 @@ All return is json format
   - Take note on product quantity deduct if apply stock control.
   - Can autocount store product_id in item? Thie will be use to sync back product in webstore.
   - advise use option name + model to generate uniq item code  or UOM in autocount.
-  
+  - By default Order_type & PaymentType return as *webstore* and *molpay*, for shop with shopee and lazada will install different version plugin to generate order_type & paymenType in *Lazada* & *shopee*.
 
 
 * **Explanitation**

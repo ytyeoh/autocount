@@ -33,6 +33,8 @@
         {
             "RefDocNo": "146",
             "Totals": "168.0000",
+            "Order_type": "Webstore",
+            "PaymentType": "molpay",
             "product": [
                 {
                     "DebtorName": "Customer Name",
