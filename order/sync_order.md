@@ -4,7 +4,7 @@
   **Caution** Kindly sync product before sync order to avoid unneccesary bugs
 * **URL**
 
-  index.php?route=api/order/autocount
+  index.php?route=api/order
 
 * **Method:**
 
