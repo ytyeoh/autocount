@@ -4,6 +4,7 @@
   1. [Get Orders](/order/sync_order.md)
 - Product
   1. [Get Products](/product/product.md)
+  2. [Sync Price/Quantity](product/quantity/md)
 
 * **Featured**
 
