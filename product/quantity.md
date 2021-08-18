@@ -31,7 +31,6 @@ autocount can set price and quantity  to sync up to webstore
             "price": "10.00"
         }
     ]
-}
 ```
 * **Checking**
   * **Uniq id in order**
