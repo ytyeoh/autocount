@@ -17,7 +17,7 @@ autocount can set price and quantity  to sync up to webstore
    **Required:**
  
    `name=[integer]`
-
+* # sync product first before usethis api, because it need product_id
 * **Body JSON**
   ```{
     "product": [
