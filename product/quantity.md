@@ -37,21 +37,19 @@ autocount can set price and quantity  to sync up to webstore
   -Product_id  (product id in webstore)
   -Model (model in webstore)
   * **description**
-   
+
   | Name|Type|Description|
-  |----------|:-------------:|------:|
+  |----------|:-------------:|:------|
   |product_id| integre|uniq product id in websotre|
-  |model|string|uniq str in webstore to record product(can use a item code|
-  |name| string|name for product, default use same as admin language in webstore for multiple language|
+  |quantity|integer|to record product stock availability  |
   |price|decimal|not inlcude special price or other price.|
-  |option|string|*-dash been use as seperator for join option value in product. Example:Black-Large (L) = *COLOR*-*SIZE*|
 
 * **Success Response:**
 
   * **Code:** 200 <br />
     **Content:** {
 ```
-   success
+   Product x,x,x had been update success
 ```
 
 
@@ -63,9 +61,11 @@ autocount can set price and quantity  to sync up to webstore
 * **Sample Call With Python:**
 
   ```Python
-    import requests
+  import requests
+  url = "https://dbpo.shinajii.com/a1/index.php?"
+    
+  data = {"product": [{"product_id": "1","quantity": "13","price": "5.00"},{"product_id": "21","quantity": "53","price": "10.00"}]}
 
-    url = 'https://koreaheaven.asia/index.php?'
-
-    x = requests.get(url, params = {"route": "extension/api/product/sync","key":"key you get","name": "username"})
+  x = requests.post(url, params = {"route": "extension/api/product/sync","key":"key","username": "username"}, json = data)
+  print(x.text)
   ```
