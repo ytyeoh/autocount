@@ -1,4 +1,5 @@
-# to be update
+# Sync product quantity & price
+---
 autocount can set price and quantity  to sync up to webstore
 **Products For Autocount**
 ----
