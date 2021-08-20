@@ -4,7 +4,7 @@
 
 * **URL**
 
-  index.php?route=api/product
+  index.php?route=extension/api/product
 * **Method:**
 
   `GET`
@@ -63,7 +63,7 @@
   ```Python
     import requests
 
-    url = 'https://koreaheaven.asia/index.php?'
+    url = 'https://dbpo.shinajii.com/a1/index.php?'
 
-    x = requests.get(url, params = {"route": "api/order","key":"key you get","name": "username"})
+    x = requests.get(url, params = {"route": "extension/api/product","key":"key you get","name": "username"})
   ```
