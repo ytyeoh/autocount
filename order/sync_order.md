@@ -22,7 +22,7 @@
   |username| string | uniq username use to access api, will be provide|
   |key| string |uniq key  use to access api pair to each username , will be provide|
   |date_start| string | d-m-y  example 1-6-2021|
-  |date_end| string | d-m-y  example 1-6-2021|
+  |date_end| string | d-m-y  example 31-6-2021|
 * **Checking**
   * **Uniq id in order**
   -RefDocNo (order id in webstore)
