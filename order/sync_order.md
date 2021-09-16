@@ -21,6 +21,8 @@
   |----------|:-------------:|------:|
   |username| string | uniq username use to access api, will be provide|
   |key| string |uniq key  use to access api pair to each username , will be provide|
+  |date_start| string | d-m-y  example 1-6-2021|
+  |date_end| string | d-m-y  example 1-6-2021|
 * **Checking**
   * **Uniq id in order**
   -RefDocNo (order id in webstore)
@@ -42,6 +44,7 @@
                     "DetailDescription": "VT Cica Purifying Mask",
                     "UOM": "PCS",
                     "Location": "HQ",
+                    "ProductId": "113",
                     "ItemCode": "MASK00169",
                     "QTY": "1",
                     "UnitPrice": "59.0000",
@@ -54,7 +57,8 @@
                     "ShpAddr1": "31 Jalan 28",
                     "ShpAddr2": "Pengkalan oljdf",
                     "ShpAddr3": "Ipoh 31650",
-                    "ShpAddr4": "Perak, Malaysia"
+                    "ShpAddr4": "Perak, Malaysia",
+                    "DateAdded": "2021-06-08 13:13:04"
                 },
                 {
                     "DebtorName": "Customer Name",
