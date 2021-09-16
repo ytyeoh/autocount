@@ -46,6 +46,7 @@
             "model": "cloths00001",
             "name": " KEEXUENNL SOS Smart Thermal Slimming Top ",
             "price": "89.0000",
+            "quantity": "1",
             "option": "Black-Large (L)"
         }
       ]
