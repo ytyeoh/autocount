@@ -24,7 +24,24 @@ autocount can set price and quantity  to sync up to webstore
         {
             "product_id": "1",
             "quantity": "13",
-            "price": "5.00"
+            "price": "5.00",
+            "sku": [
+              {
+                "sku": "123145"
+                "quantity": "100",
+                "price: ""5.00"
+              },
+              {
+                "sku": "123147"
+                "quantity": "100",
+                "price: ""6.00"
+              },
+              {
+                "sku": "123148"
+                "quantity": "100",
+                "price: ""6.00"
+              }
+            ]
         },
         {
             "product_id": "21",
