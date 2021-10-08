@@ -33,6 +33,7 @@
   |name| string|name for product, default use same as admin language in webstore for multiple language|
   |price|decimal|not inlcude special price or other price.|
   |option|string|*-dash been use as seperator for join option value in product. Example:Black-Large (L) = *COLOR*-*SIZE*|
+  |sku|integer| uniq id to record each variant quantity and price.|
 
 * **Success Response:**
 
@@ -47,7 +48,8 @@
             "name": " KEEXUENNL SOS Smart Thermal Slimming Top ",
             "price": "89.0000",
             "quantity": "1",
-            "option": "Black-Large (L)"
+            "option": "Black-Large (L)",
+            "sku": "140162"
         }
       ]
     }
