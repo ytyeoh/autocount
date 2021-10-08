@@ -20,35 +20,37 @@ autocount can set price and quantity  to sync up to webstore
 * # sync [product](https://github.com/ytyeoh/autocount/blob/main/product/product.md) first before use this api, because it need product_id
 * **Body JSON**
   ```{
+    {
     "product": [
-        {
-            "product_id": "1",
-            "quantity": "13",
-            "price": "5.00",
-            "sku": [
+          {
+              "product_id": "1",
+              "quantity": "13",
+              "price": "5.00",
+              "sku": [
               {
-                "sku": "123145"
+                "sku": "123145",
                 "quantity": "100",
-                "price: ""5.00"
+                "price": "5.00"
               },
               {
-                "sku": "123147"
+                "sku": "123147",
                 "quantity": "100",
-                "price: ""6.00"
+                "price": "6.00"
               },
               {
-                "sku": "123148"
+                "sku": "123148",
                 "quantity": "100",
-                "price: ""6.00"
+                "price": "6.00"
               }
             ]
-        },
-        {
-            "product_id": "21",
-            "quantity": "53",
-            "price": "10.00"
-        }
-    ]
+          },
+          {
+              "product_id": "21",
+              "quantity": "53",
+              "price": "10.00"
+          }
+      ]
+  }
 
 * **Checking**
   * **Uniq id in order**
